@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">AI Detector Skill hero</title>
+  <desc id="desc">Open-source project hero card for an explainable AI text risk analyzer.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#101828"/>
+      <stop offset="0.52" stop-color="#12343b"/>
+      <stop offset="1" stop-color="#22223b"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" x2="1">
+      <stop offset="0" stop-color="#34d399"/>
+      <stop offset="0.48" stop-color="#38bdf8"/>
+      <stop offset="1" stop-color="#f59e0b"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="16" stdDeviation="18" flood-color="#000" flood-opacity="0.28"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <path d="M0 502 C156 455 239 536 387 490 C514 451 562 358 713 398 C865 438 907 539 1200 461 L1200 630 L0 630 Z" fill="#0f766e" opacity="0.34"/>
+  <path d="M0 548 C169 514 258 574 416 533 C583 490 653 438 796 470 C929 500 1002 574 1200 535 L1200 630 L0 630 Z" fill="#f59e0b" opacity="0.20"/>
+  <g transform="translate(92 92)">
+    <rect x="0" y="0" width="536" height="382" rx="24" fill="#ffffff" opacity="0.96" filter="url(#shadow)"/>
+    <rect x="34" y="36" width="164" height="18" rx="9" fill="#0f766e"/>
+    <rect x="34" y="84" width="436" height="16" rx="8" fill="#d0d5dd"/>
+    <rect x="34" y="120" width="384" height="16" rx="8" fill="#d0d5dd"/>
+    <rect x="34" y="156" width="438" height="16" rx="8" fill="#d0d5dd"/>
+    <rect x="34" y="208" width="468" height="96" rx="16" fill="#ecfdf3"/>
+    <path d="M68 260 L124 260 L150 226 L178 282 L215 242 L248 260 L468 260" fill="none" stroke="#059669" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="34" y="332" width="176" height="16" rx="8" fill="#f59e0b"/>
+  </g>
+  <g transform="translate(678 112)">
+    <text x="0" y="0" fill="#ffffff" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="64" font-weight="800">AI Detector Skill</text>
+    <text x="0" y="70" fill="#d1e9ff" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="30" font-weight="600">Evidence over vibes.</text>
+    <text x="0" y="120" fill="#e4e7ec" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="26">Explainable AI-like text risk analysis</text>
+    <text x="0" y="158" fill="#e4e7ec" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="26">for Codex, Claude Code, and agents.</text>
+    <rect x="0" y="210" width="360" height="74" rx="18" fill="url(#accent)"/>
+    <text x="30" y="258" fill="#101828" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="27" font-weight="800">Score + signals + caveats</text>
+    <g transform="translate(0 330)" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="22" font-weight="700">
+      <rect x="0" y="-34" width="142" height="48" rx="24" fill="#ecfdf3"/>
+      <text x="24" y="-3" fill="#047857">no proof</text>
+      <rect x="162" y="-34" width="176" height="48" rx="24" fill="#e0f2fe"/>
+      <text x="186" y="-3" fill="#0369a1">local CLI</text>
+      <rect x="358" y="-34" width="164" height="48" rx="24" fill="#fef3c7"/>
+      <text x="384" y="-3" fill="#92400e">agent-safe</text>
+    </g>
+  </g>
+</svg>

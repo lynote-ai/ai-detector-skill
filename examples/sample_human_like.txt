@@ -1,0 +1,3 @@
+I rewrote the opening after lunch because the first version sounded like a memo nobody would finish. The useful detail was not the big claim, but the small note about which door stuck whenever it rained. Our team kept the boring fix because it was the one we could explain, test, and support next month.
+
+Mina disagreed with the estimate, so we walked through the spreadsheet and found two assumptions that were simply old. That did not make the meeting exciting, but it made the next step obvious. By Friday, the patch was smaller than the proposal and easier to defend.
