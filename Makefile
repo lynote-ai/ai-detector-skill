@@ -1,4 +1,4 @@
-.PHONY: test demo benchmark
+.PHONY: test demo benchmark eval-hc3
 
 test:
 	PYTHONPATH=src python -m pytest -q
@@ -8,3 +8,6 @@ demo:
 
 benchmark:
 	PYTHONPATH=src python scripts/benchmark.py --markdown docs/BENCHMARK.md
+
+eval-hc3:
+	PYTHONPATH=src python scripts/evaluate_hc3.py --markdown docs/HC3_EVALUATION.md
